@@ -13,8 +13,8 @@ const numbers = [1, 2, 3, 34, 55, 66, 778, 54, 3543, 99];
 for (let i = 0; i < numbers.length; i++) {
   const pari = numbers[i] % 2 == 0;
   if (pari) {
-    pariEl.innerHTML += ` ${numbers[i]},`;
+    pariEl.innerHTML += ` ${numbers[i]}  `;
   } else {
-    dispariEl.innerHTML += ` ${numbers[i]},`;
+    dispariEl.innerHTML += ` ${numbers[i]}  `;
   }
 }
