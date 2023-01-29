@@ -6,10 +6,12 @@
 // stampa del div rosso
 // ELSE il numero è pari
 // stampa il numero nel div verde
+const showArray = document.getElementById("show-array");
 const pariEl = document.getElementById("pari");
 const dispariEl = document.getElementById("dispari");
 const numbers = [1, 2, 3, 34, 55, 66, 778, 54, 3543, 99];
 
+showArray.innerHTML = numbers;
 for (let i = 0; i < numbers.length; i++) {
   const pari = numbers[i] % 2 == 0;
   if (pari) {

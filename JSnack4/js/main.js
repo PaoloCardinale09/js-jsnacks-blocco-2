@@ -12,8 +12,8 @@ const aNumbers = [1, 2, 33];
 const bNumbers = [1, 8, 9, 545, 44, 33, 566];
 let numeroDiCicli = 0;
 console.log(aNumbers);
-startArrayA.innerHTML = `Contiene <span class="h4 text-primary"> ${aNumbers.length} </span> elementi <br> [${aNumbers}]`;
-startArrayB.innerHTML = `Contiene <span class="h4 text-primary"> ${bNumbers.length} </span>elementi <br>[${bNumbers}]`;
+startArrayA.innerHTML = `Contiene <span class="h4 text-success"> ${aNumbers.length} </span> elementi <br> [${aNumbers}]`;
+startArrayB.innerHTML = `Contiene <span class="h4 text-success"> ${bNumbers.length} </span>elementi <br>[${bNumbers}]`;
 
 // SE LA LUNGHEZZA DEI DUE ARRAY E' DIVERSA.
 if (aNumbers.length !== bNumbers.length) {
